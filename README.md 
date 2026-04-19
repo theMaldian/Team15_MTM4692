@@ -1,0 +1,88 @@
+# YTU Assistant Recruitment System
+
+## Project Idea
+
+This project is a mobile platform designed for Yıldız Technical University (YTU) to centralize and simplify the assistant recruitment process within the university.
+
+Currently, assistantship opportunities such as teaching assistants, lab assistants, or research assistants are shared in a scattered and informal way (e.g., emails, announcements, or word of mouth). This makes it difficult for students to track opportunities and for professors to manage applications efficiently.
+
+This platform addresses this issue by providing a structured, centralized, and accessible system.
+
+---
+
+## Purpose
+
+The main objectives of this project are:
+
+- To provide a **centralized platform** where academic staff can publish assistantship opportunities
+- To allow students to **easily browse and apply** for available positions
+- To enable professors to **manage and evaluate applications** efficiently
+- To improve transparency and reduce communication gaps in the recruitment process
+
+---
+
+## How It Works
+
+### For Professors
+- Register and verify their account
+- Create assistantship job postings (course assistant, lab assistant, research assistant, etc.)
+- View and manage applicants for each posting
+- Evaluate and select candidates
+
+### For Students
+- Register and create their profile
+- Browse available assistantship positions
+- Apply to relevant positions
+- Track application status
+
+---
+
+## System Features
+
+- User authentication and email verification
+- Role-based access control (student / professor)
+- Assistantship job posting system
+- Application management system
+- Profile management (education, experience, skills, languages)
+- Prevention of duplicate applications (one student can apply only once per job)
+
+---
+
+## Technologies Used
+
+- **Frontend**: Flutter  
+  Cross-platform mobile application for Android and iOS.
+
+- **Backend**: Node.js (Express.js)  
+  RESTful API handling business logic, authentication, and data processing.
+
+- **Database**: Azure SQL  
+  Relational database storing users, job postings, applications, and profile data.
+
+- **Authentication**: JWT (JSON Web Tokens)  
+  Secure authentication and role-based authorization.
+
+- **API Communication**: REST API (JSON over HTTP)  
+  Communication between frontend and backend services.
+
+- **Version Control**: Git & GitHub  
+  Source code management and team collaboration.
+
+---
+
+## Problem Solved
+
+This system improves the assistant recruitment process within the university by:
+
+- Eliminating scattered and informal announcements
+- Providing a centralized and accessible system for students
+- Enabling professors to efficiently manage and evaluate applicants
+- Creating a transparent and organized workflow
+
+---
+
+## Contributors
+
+- Kaan Gökkoca  
+- Akın Engin Kılınç  
+- Züleyha Uslu
