@@ -1,3 +1,6 @@
 .env
 node_modules/
 npm-debug.log*
+
+# Demo seed credentials (contains login passwords)
+scripts/SEED_CREDENTIALS.md

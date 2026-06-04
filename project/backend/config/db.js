@@ -46,8 +46,11 @@ const poolPromise = new sql.ConnectionPool(config)
     return pool;
   })
   .catch(err => {
+    // Log and resolve to null instead of re-throwing: an unhandled rejection
+    // here would crash the whole process. Routes that await the pool will then
+    // throw and be turned into a clean 500 by the controllers' try/catch.
     console.error("DB connection failed:", err);
-    throw err;
+    return null;
   });
 
 module.exports = { sql, poolPromise };

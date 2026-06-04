@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 
 const authRoutes = require("./routes/authRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
@@ -9,6 +10,7 @@ const profileRoutes = require("./routes/profileRoutes");
 const app = express();
 
 app.use(express.json());
+app.use(cors({ origin: true, credentials: true }));
 
 app.use("/auth", authRoutes);
 app.use("/applications", applicationRoutes);

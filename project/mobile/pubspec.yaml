@@ -1,0 +1,52 @@
+name: ytu_assistant
+description: "YTU Assistant Recruitment System mobile client."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Localization (Turkish default, English optional)
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.0
+
+  # Networking
+  dio: ^5.4.0
+
+  # Routing
+  go_router: ^14.0.0
+
+  # Secure JWT storage
+  flutter_secure_storage: ^9.2.0
+
+  # Form validation
+  reactive_forms: ^17.0.0
+
+  # JSON serialization
+  json_annotation: ^4.9.0
+
+  # Date formatting
+  intl: ^0.20.2
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
